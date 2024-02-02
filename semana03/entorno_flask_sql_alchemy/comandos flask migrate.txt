@@ -1,0 +1,2 @@
+flask db init  inicializa el proyecto
+flask db migrate -m "MENSAJE" crea la migracion
