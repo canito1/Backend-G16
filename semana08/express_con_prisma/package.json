@@ -1,0 +1,32 @@
+{
+  "name": "express_con_prisma",
+  "version": "1.0.0",
+  "description": "Uso de express con el ORM de prisma",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "crear:migracion": "prisma migrate dev",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Express",
+    "NodeJs",
+    "prisma",
+    "backend"
+  ],
+  "author": "Eduardo de Rivero",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.10.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.12.2",
+    "prisma": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0"
+  }
+}
